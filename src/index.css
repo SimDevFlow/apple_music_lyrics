@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "apple";
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/fonts/regular.OTF");
+}
+@font-face {
+    font-family: "apple";
+    font-style: normal;
+    font-weight: bold;
+    src: url("assets/fonts/bold.OTF");
+}
+@theme {
+    --font-apple: "apple", sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Masquer la barre de défilement pour IE, Edge et Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE et Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
