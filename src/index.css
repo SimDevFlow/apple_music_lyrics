@@ -12,6 +12,13 @@
     font-weight: bold;
     src: url("assets/fonts/bold.OTF");
 }
+@font-face {
+    font-family: "apple";
+    font-style: normal;
+    font-weight: 600,800;
+    src: url("assets/fonts/meduim.OTF");
+}
+
 @theme {
     --font-apple: "apple", sans-serif;
 }
