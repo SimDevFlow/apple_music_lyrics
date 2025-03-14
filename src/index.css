@@ -31,3 +31,6 @@
     -ms-overflow-style: none;  /* IE et Edge */
     scrollbar-width: none;  /* Firefox */
   }
+body{
+    background-color: #6B94B2;
+}

@@ -33,7 +33,7 @@ function LyricsTitle({ children, id }) {
             {
                 <motion.p
                     initial={{ opacity: 1,y:0 }}
-                    animate={{y:inView?[-10,0] : 0,opacity:(positionY<220 && !inView)?0:opacity,transition:{duration:.5}}}
+                    animate={{y:inView?[0,-5,0] : 0,opacity:(positionY<220 && !inView)?0:opacity,transition:{duration:.5,}}}
                     ref={scope} className={classNames('text-3xl font-bold font-apple mb-24 leading-8 opacity-5')}>{children}</motion.p>
             }
         </div >
